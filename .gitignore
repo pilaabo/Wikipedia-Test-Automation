@@ -1,7 +1,16 @@
-# Compiled class file
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Aqua IDE specific files
+.aqua/
+
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -19,6 +28,13 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
+
+# Gradle specific files
+.gradle/
+build/
+
+# Kotlin specific files
+*.kotlin_metadata/
